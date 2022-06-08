@@ -84,26 +84,24 @@ while (seq_dados ==1){
     se (acidentes < menor_indice_acidentes ou menor_indice_acidentes == 0) {
 codigo_menos_acidente = codigo
 menor_indice_acidentes = acidentes
-        }
-}
-    
-//- Qual o maior índice de acidente de trânsito;
-escreva("\nMaior índice de acidentes: ", maior_indice_acidentes)
+        }   
+// Qual o maior índice de acidente de trânsito;
+printf("\nMaior índice de acidentes: ", maior_indice_acidentes)
 
-//- Qual cidade pertence o maior índice de acidente de trânsito;
-escreva("\nCidade com mais acidentes: ", codigo_maior_cidade)
+// Qual cidade pertence o maior índice de acidente de trânsito;
+printf("\nCidade com mais acidentes: ", codigo_maior_cidade)
 
-//- Qual o menor índice de acidente de trânsito;
-escreva("\nMenor índice de acidentes: ", menor_indice_acidentes)
+// Qual o menor índice de acidente de trânsito;
+printf("\nMenor índice de acidentes: ", menor_indice_acidentes)
 
-//- Qual cidade pertence o menor índice de acidente de trânsito;
-escreva("\nCidade com menos acidentes: ", codigo_menor_cidade)
+// Qual cidade pertence o menor índice de acidente de trânsito;
+printf("\nCidade com menos acidentes: ", codigo_menor_cidade)
 
-//- Qual a média de veículos nas cidades juntas;
-escreva("\nMédia de veículos: ", media_de_veiculos_cidades)
+// Qual a média de veículos nas cidades juntas;
+printf("\nMédia de veículos: ", media_de_veiculos_cidades)
 
-//- Qual a média de acidentes de trânsito nas cidades com menos de 2000 veículos de passeio.
-escreva("\nMédia de acidentes em cidades com menos de 2000 veículos de passeio: ", media_de_acidentes_menor_2000)
-escreva("\n")
+// Qual a média de acidentes de trânsito nas cidades com menos de 2000 veículos de passeio.
+printf("\nMédia de acidentes em cidades com menos de 2000 veículos de passeio: ", media_de_acidentes_menor_2000)
+printf("\n")
 }
 }
